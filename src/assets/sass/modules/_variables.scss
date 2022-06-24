@@ -1,0 +1,61 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-Nunito: 'Nunito';
+$font-family-Montserrat: 'Montserrat';
+$font-family-Poppins: 'Poppins';
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Bodyhover-color
+$body-bg: #fff;
+$body-color: #444;
+$enable-smooth-scroll: false;
+$boxone-colo: #741c5f;
+$boxtwo-colo :#fc03ba;
+$boxthree-colo :#a903fc;
+$boxfour-colo :#fc8403;
+$boxfive-colo :#00b3c7;
+$boxsix-colo: #049951;
+
+// colors-map
+
+$primary: #ffa600;
+$secondary: #6722b5;
+
+$position-values: (
+	20: 20%,
+	30: 30%,
+	35: 35%,
+	40: 40%,
+	45: 45%,
+);
+
+$enable-negative-margins: true;
+
+
+// Bootstrap and its default variables
+@import "bootstrap/scss/variables";
+
+
+$gradient: linear-gradient(100deg, rgba($black, var(--bs-bg-opacity)), rgba($white, 0));
+
+
+// Create your own font size map
+$custom-font-sizes: (
+	6: $h6-font-size
+);
+
+// Merge the maps
+$font-sizes: map-merge($font-sizes, $custom-font-sizes);
+
+// Create your own color map
+$custom-colors: (
+	"primary": $primary,
+
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
