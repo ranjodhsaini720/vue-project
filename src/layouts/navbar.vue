@@ -3,9 +3,10 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <div class="div"></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border fixed-top">
+    <div class="container">
+      <a class="navbar-brand fs-4" href="#">Car Service</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,48 +21,51 @@ import { RouterLink, RouterView } from "vue-router";
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <RouterLink class="nav-link active" to="/">Home</RouterLink>
+            <RouterLink class="nav-link" to="/">Home</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to="/about">About</RouterLink>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li>
-                <RouterLink class="dropdown-item" to="#">Another</RouterLink>
-              </li>
-              <li>
-                <RouterLink class="dropdown-item" to="#">Another</RouterLink>
-              </li>
-              <li><hr class="dropdown-divider" /></li>
-              <li>
-                <RouterLink class="dropdown-item" to="#">Another</RouterLink>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/Blog">Blog</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/Services">Services</RouterLink>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/Contact">Contact</RouterLink>
           </li>
         </ul>
         <form class="d-flex">
-          <input
-            class="form-control me-2"
+          <!-- <input
+            class="form-control me-2 shadow-none"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit">Search</button> -->
         </form>
       </div>
     </div>
   </nav>
 </template>
 
-<style></style>
+<style>
+.nav-item {
+ 
+  padding: 0px 10px;
+  margin-right: 2%;
+  border-radius: 2px;
+  font-weight: 600;
+  box-shadow: inset 0 0 0 0 silver;
+  transition: all 0.6s ease;
+  color: white;
+}
+.nav-item:hover {
+  box-shadow: inset 100px 0 0 0 silver;
+}
+.div {
+  padding-top: 4%;
+  position: relative;
+}
+</style>
