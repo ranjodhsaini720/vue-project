@@ -69,21 +69,21 @@
           <img src="../assets/images/image8.jpg" alt="" class="w-50" />
           <p class="head ps-3" style="font-size: 15px">
             Time To Change Your Winter Tires
-            <i class="fst-normal" style="color: silver">April 25, 2015</i>
+            <e class="ps-4" style="color: silver">April 25, 2015</e>
           </p>
         </div>
         <div class="d-flex my-5">
           <img src="../assets/images/image9.jpg" alt="" class="w-50" />
           <p class="head ps-3" style="font-size: 15px">
             Time To Change Your Winter Tires
-            <i class="fst-normal" style="color: silver">April 15, 2015</i>
+            <e class="ps-4" style="color: silver">April 15, 2015</e>
           </p>
         </div>
         <div class="d-flex">
           <img src="../assets/images/car.jpg" alt="" class="w-50" />
           <p class="head ps-3" style="font-size: 15px">
             Time To Change Your Winter Tires
-            <i class="fst-normal" style="color: silver">April 18, 2015</i>
+            <e class="ps-4" style="color: silver">April 18, 2015</e>
           </p>
         </div>
       </div>
@@ -127,21 +127,21 @@
             <img src="../assets/images/image8.jpg" alt="" class="w-50" />
             <p class="head ps-3" style="font-size: 15px">
               Time To Change Your Winter Tires
-              <i class="fst-normal" style="color: silver">6542 views</i>
+              <e class="ps-5" style="color: silver">6542 views</e>
             </p>
           </div>
           <div class="d-flex my-5">
             <img src="../assets/images/image9.jpg" alt="" class="w-50" />
             <p class="head ps-3" style="font-size: 15px">
               Replacing a Timing Belt Service Cost
-              <i class="fst-normal" style="color: silver">2432 views</i>
+              <e class="ps-5" style="color: silver">2432 views</e>
             </p>
           </div>
           <div class="d-flex">
             <img src="../assets/images/car.jpg" alt="" class="w-50" />
             <p class="head ps-3" style="font-size: 15px">
               Clunking Sound Under The Hood
-              <i class="fst-normal" style="color: silver">3337 views</i>
+              <e class="ps-5" style="color: silver">3337 views</e>
             </p>
           </div>
 
@@ -251,7 +251,7 @@
 
         <div class="mt-5">
           <h6 class="fw-bold py-4">Your cart is currently empty.</h6>
-          <button class="btn btn-outline-primary py-3 px-4 rounded-0 my-4">
+          <button class="btn btn-outline-info py-3 px-4 rounded-0 my-4">
             RETURN TO SHOP
           </button>
         </div>

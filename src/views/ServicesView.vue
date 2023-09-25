@@ -16,7 +16,7 @@
 
   <div class="container">
     <div class="row mt-5">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-12 col-sm-12">
         <div class="py-4">
           <div class="d-flex border-bottom px-2">
             <p class="py-3 w-100">Engine Diagnostics</p>
@@ -71,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-9">
+      <div class="col-lg-9 col-md-12 col-sm-12">
         <div class="text-center d-flex">
           <img src="../assets/images/image3.jpg" alt="mg" class="w-50 pe-2" />
           <img src="../assets/images/image8.jpg" alt="mg" class="w-50 p-0" />

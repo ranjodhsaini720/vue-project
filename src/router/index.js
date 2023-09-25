@@ -4,6 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import ContactView from '../views/ContactView.vue'
 import BlogView from '../views/BlogView.vue'
+import AppointmentView from '../views/AppointmentView.vue'
 
 
 
@@ -36,6 +37,11 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: ContactView
+    },
+    {
+      path: '/Appointment',
+      name: 'Appointment',
+      component: AppointmentView
     }
   ]
 })

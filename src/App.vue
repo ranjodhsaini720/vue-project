@@ -1,10 +1,10 @@
 <script setup>
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Layout from "./layouts/index.vue";
+import Layouts from "./layouts/index.vue";
 </script>
 
 <template>
-  <Layout />
+  <Layouts />
 </template>
 
 <style lang="scss">

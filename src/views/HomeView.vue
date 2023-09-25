@@ -4,82 +4,83 @@
 <template>
   <div class="">
     <div
-    id="carouselExampleCaptions"
-    class="carousel slide"
-    data-bs-ride="carousel"  >
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="@/assets/images/image.jpg" alt="mg" />
-        <div class="carousel-caption">
-          <h4 class="">EXPERT TECHNICIANS, COMPETITIVE PRICES</h4>
-          <p class="fs-5">
-            We are committed to earning your trust by providing the expertise
-            and value you expect.
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/images/image1.jpg" alt="mg" />
-        <div class="carousel-caption">
-          <h4 class="">MAKE YOUR CAR LAST LONGER</h4>
-          <p class="fs-5">
-            Free oil change, April 15. Only if you have a "5" on your license
-            plate.
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/images/image2.jpg" alt="mg" />
-        <div class="carousel-caption">
-          <h4 class="">FIND THE TIRES THAT MATCH YOUR NEEDS</h4>
-          <p class="fs-5">
-            Take advantage of our lowest prices which automatically include
-            coupons.
-          </p>
-        </div>
-      </div>
-    </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="prev"
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
     >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="@/assets/images/image.jpg" alt="mg" />
+          <div class="carousel-caption">
+            <h4 class="">EXPERT TECHNICIANS, COMPETITIVE PRICES</h4>
+            <p class="fs-5">
+              We are committed to earning your trust by providing the expertise
+              and value you expect.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="@/assets/images/image1.jpg" alt="mg" />
+          <div class="carousel-caption">
+            <h4 class="">MAKE YOUR CAR LAST LONGER</h4>
+            <p class="fs-5">
+              Free oil change, April 15. Only if you have a "5" on your license
+              plate.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="@/assets/images/image2.jpg" alt="mg" />
+          <div class="carousel-caption">
+            <h4 class="">FIND THE TIRES THAT MATCH YOUR NEEDS</h4>
+            <p class="fs-5">
+              Take advantage of our lowest prices which automatically include
+              coupons.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
   <div class="make bg-light py-5">
     <div class="container">
@@ -263,73 +264,71 @@
       </div>
     </div>
   </div>
-  <div class="">
-    <div class="background mb-5">
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-innerr">
-          <div class="carousel-item active">
-            <div class="text-light">
-              <i class="text-end bi bi-pencil fs-1"></i>
-            </div>
-            <p class="text-light mt-4 fs-5">
-              VIEW ALL SERVICES "I have taken several of the family cars here
-              for the past several years and without exception the experiences
-            </p>
-            <hr class="bg-light w-25 ms-auto me-auto" style="height: 5px" />
-            <h6 class="fw-bold text-light fs-5">Car</h6>
+  <div class="background mb-5">
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-innerr">
+        <div class="carousel-item active">
+          <div class="text-light">
+            <i class="text-end bi bi-pencil fs-1"></i>
           </div>
-          <div class="carousel-item">
-            <div class="text-light">
-              <i class="text-end bi bi-pencil fs-1"></i>
-            </div>
-            <p class="text-light mt-4 fs-5">
-              VIEW ALL SERVICES " I would highly recommend this place to any one
-              who wants great service, honest value, and really great people."
-            </p>
-            <hr class="bg-light w-25 ms-auto me-auto" style="height: 5px" />
-            <h6 class="fw-bold text-light fs-5">Bus</h6>
-          </div>
-          <div class="carousel-item">
-            <div class="text-light">
-              <i class="text-end bi bi-pencil fs-1"></i>
-            </div>
-            <p class="text-light mt-4 fs-5">
-              VIEW ALL SERVICES "I have taken several of the family cars here
-              for the past several years and without exception the experiences."
-            </p>
-            <hr class="bg-light w-25 ms-auto me-auto" style="height: 5px" />
-            <h6 class="fw-bold text-light fs-5">Van</h6>
-          </div>
+          <p class="text-light mt-4 fs-5">
+            VIEW ALL SERVICES "I have taken several of the family cars here for
+            the past several years and without exception the experiences
+          </p>
+          <hr class="bg-light w-25 ms-auto me-auto" style="height: 5px" />
+          <h6 class="fw-bold text-light fs-5">Car</h6>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon1 ms-5"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleFade"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon1 me-5"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <div class="text-light">
+            <i class="text-end bi bi-pencil fs-1"></i>
+          </div>
+          <p class="text-light mt-4 fs-5">
+            VIEW ALL SERVICES " I would highly recommend this place to any one
+            who wants great service, honest value, and really great people."
+          </p>
+          <hr class="bg-light w-25 ms-auto me-auto" style="height: 5px" />
+          <h6 class="fw-bold text-light fs-5">Bus</h6>
+        </div>
+        <div class="carousel-item">
+          <div class="text-light">
+            <i class="text-end bi bi-pencil fs-1"></i>
+          </div>
+          <p class="text-light mt-4 fs-5">
+            VIEW ALL SERVICES "I have taken several of the family cars here for
+            the past several years and without exception the experiences."
+          </p>
+          <hr class="bg-light w-25 ms-auto me-auto" style="height: 5px" />
+          <h6 class="fw-bold text-light fs-5">Van</h6>
+        </div>
       </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span
+          class="carousel-control-prev-icon1 ms-5"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span
+          class="carousel-control-next-icon1 me-5"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
 
@@ -549,14 +548,16 @@
   <div class="my-4 bg-light py-5 mt-0">
     <div class="row g-0">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <h4 class="d-flex justify-content-center aling-items-center">DO YOU LIKE WHAT YOU SEE</h4>
+        <h4 class="d-flex justify-content-center aling-items-center">
+          DO YOU LIKE WHAT YOU SEE
+        </h4>
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
-       <div class="text-center mt-3">
-         <button class="btn btn-primary rounded-0 ms-5 fw-bold">
-          PURCHASE THEME
-        </button>
-       </div>
+        <div class="text-center mt-3">
+          <button class="btn btn-primary rounded-0 ms-5 fw-bold">
+            PURCHASE THEME
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -699,10 +700,7 @@
   opacity: 1;
   padding-top: 0;
 }
-.img a:hover {
-  background-color: red;
-  color: white;
-}
+
 .carousel-control-prev,
 .carousel-control-next {
   top: 35%;

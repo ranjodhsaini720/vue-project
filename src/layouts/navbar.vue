@@ -1,5 +1,4 @@
 <script>
-import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
@@ -19,7 +18,7 @@ import { RouterLink, RouterView } from "vue-router";
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto fw-bold">
           <li class="nav-item">
             <RouterLink class="nav-link" to="/">Home</RouterLink>
           </li>
@@ -33,18 +32,23 @@ import { RouterLink, RouterView } from "vue-router";
             <RouterLink class="nav-link" to="/Services">Services</RouterLink>
           </li>
           <li class="nav-item">
+            <RouterLink class="nav-link" to="/Appointment"
+              >Appointment</RouterLink
+            >
+          </li>
+          <li class="nav-item">
             <RouterLink class="nav-link" to="/Contact">Contact</RouterLink>
           </li>
         </ul>
-        <form class="d-flex">
-          <!-- <input
+        <!-- <form class="d-flex"> -->
+        <!-- <input
             class="form-control me-2 shadow-none"
             type="search"
             placeholder="Search"
             aria-label="Search"
           />
           <button class="btn btn-outline-success" type="submit">Search</button> -->
-        </form>
+        <!-- </form> -->
       </div>
     </div>
   </nav>
@@ -52,20 +56,18 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style>
 .nav-item {
- 
-  padding: 0px 10px;
+  padding: 0 5px;
   margin-right: 2%;
-  border-radius: 2px;
-  font-weight: 600;
   box-shadow: inset 0 0 0 0 silver;
-  transition: all 0.6s ease;
-  color: white;
+  transition: all 0.7s ease;
 }
 .nav-item:hover {
-  box-shadow: inset 100px 0 0 0 silver;
+  box-shadow: inset 150px 0 0 0 silver;
+  transition: all 0.7s ease;
+  color: white;
 }
 .div {
-  padding-top: 4%;
+  padding-top: 3%;
   position: relative;
 }
 </style>
